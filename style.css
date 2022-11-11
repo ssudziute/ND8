@@ -1,0 +1,56 @@
+* {
+   margin:0;
+   padding:0;
+   font-family: arial;
+}
+
+body {
+    background: #3cb371;
+    align-items: center;
+}
+
+article {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: white;
+    max-width: 100%; 
+    width: 100%;
+    border: 0 solid transparent;
+}
+
+article:hover {
+    cursor: pointer;
+}
+
+
+article p, h2 {
+    text-align: left;
+    margin: 25px;   
+}
+
+.article-1, .article-2 {
+    width: 66%;
+}
+
+.article-3 {
+    width: 33%;
+}
+
+img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+@media (max-width: 320px) {
+  main {
+    width: 50%;
+    height: 50%;
+    flex-direction: column;
+  }
+}
